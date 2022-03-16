@@ -7,6 +7,9 @@
 
 
 
+from random import random
+
+
 nombre = -123.0
 print(nombre)
 print(type(nombre))
@@ -65,9 +68,32 @@ print(type(text))
 
 texte = str(nombre)
 print(text)
-print(type(text)
+print(type(text))
 
 
 my_var = [False]
 my_var = bool(my_var)
 print((my_var))
+
+
+a = 42
+b = 123
+
+t = a
+a = b
+b = t
+print("value of a", a)
+print("value of b", b)
+
+
+
+a = 42
+b = 123  
+c = random.randint(1, 100)
+
+result = a < 50 > b
+print(result)
+
+result = a < c > b
+print(c)
+print(result)

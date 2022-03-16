@@ -10,9 +10,17 @@
 # Affichez ces variables
 
 # réponse 2.1
+
+
+
+
+
 a = 42
 b = 1.61
 c = "bayard alexandre"
+morning = True
+other = False
+var = None
 # code 2.1
 # la fonction `round()` permet d'arrondir un float en un integer
 # 0,1 est arrondi à la valeur inférieur
@@ -32,4 +40,11 @@ print(round(1 / 3, 4))
 # À chaque fois stockez le résultat dans une variable et affichez le résultat.
 
 # réponse 2.2
+test = 2
+test = float(test)
+print(test)
+float = 1.62
+
+
+
 
