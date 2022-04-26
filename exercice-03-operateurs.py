@@ -47,7 +47,13 @@ chocolates_rest = 5.66
 # Il y en a un qui va tout de suite vous donner la réponse.
 
 # réponse 3.3
+candies = 5
+friends /= 3
+candies_per_persn = 1,66
 
+chocolates = 5,66
+friends /= 3
+chocolates_per_person = 1,88
 # exo 3.4
 # Calculez la moyenne des nombres suivants : 1, 1, 2, 3, 5, 8, 13.
 # Affectez le résultat à une variable et affichez le résultat.
