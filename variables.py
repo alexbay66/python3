@@ -86,14 +86,19 @@ print("value of a", a)
 print("value of b", b)
 
 
+ep= 0.1
+p= 0
+while ep <=600000:
+    p=p+1
+    ep=ep*2
+    print(ep, p)
 
-a = 42
-b = 123  
-c = random.randint(1, 100)
 
-result = a < 50 > b
-print(result)
-
-result = a < c > b
-print(c)
-print(result)
+a=int(input("ton age ?"))
+if a <8 :
+    p=5
+elif  a <16 :
+    p=8
+else :
+    p=20
+print(p)

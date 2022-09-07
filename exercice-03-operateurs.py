@@ -54,12 +54,10 @@ candies_per_persn = 1,66
 chocolates = 5,66
 friends /= 3
 chocolates_per_person = 1,88
-# exo 3.4
-# Calculez la moyenne des nombres suivants : 1, 1, 2, 3, 5, 8, 13.
-# Affectez le résultat à une variable et affichez le résultat.
 
 # réponse 3.4
-
+moyenne = 1+1+2+3+5+8+13 / 7
+print(moyenne)
 # exo 3.5
 # Alice est en vacance et elle veut suivre ses dépenses quotidiennes.
 # Stockez le montant de chacune de ses dépenses quotidiennes dans une variable différente :
@@ -74,6 +72,15 @@ chocolates_per_person = 1,88
 # Affichez le nombre jours, le montant total et la moyenne des dépenses.
 
 # réponse 3.5
+day1 = 26.82
+day2 = 42.00
+day3 = 31.41
+day4 = 63.7
+day5 = 32
+days = 5
+total = day1 + day2 + day3 + day4 + day5
+average = total - days
+print(average)
 
 # exo 3.6
 # La formule suivante permet de convertir des miles en mètres :
@@ -88,7 +95,9 @@ chocolates_per_person = 1,88
 miles = 3
 
 # réponse 3.6
-
+meters = 1609.344 * 3
+km = meters / 1000
+print(round(km))
 # exo 3.7
 # La formule suivante permet de calculer le montant de la TVA à partir d'un prix « hors TVA » (HTVA) et du taux de la TVA en pourcentage
 #
@@ -102,6 +111,8 @@ price = 314
 tax_rate = 20
 
 # réponse 3.7
+tva = price * tax_rate / 100
+print(tva)
 
 # exo 3.8
 # La formule suivante permet de calculer un prix TVA inlcuse à partir du prix HTVA et du taux de TVA en pourcentage
@@ -121,6 +132,9 @@ tax_rate = 20
 
 # réponse 3.8
 
+tax_included_price = 271 *(1 + 20 /100 )
+print(tax_included_price)
+
 # exo 3.9
 # Charly fait ses courses.
 # Il compare le prix de deux marques différentes de chocolat.
@@ -134,3 +148,7 @@ tax_rate = 20
 
 # réponse 3.9
 
+price_kilo_1 = 1000*1.79/120
+price_kilo_2 = 1000*1.7/100
+result = price_kilo_1 == price_kilo_2
+print(result)
